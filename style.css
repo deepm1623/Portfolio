@@ -1572,3 +1572,92 @@ textarea.form-input::-webkit-resizer { display: none; }
 .download-btn:hover::before {
   left: 100%;
 }
+
+.scripts-section {
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.scripts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.script-card {
+    background: #111;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.script-card:hover {
+    transform: translateY(-5px);
+}
+
+.script-card img {
+  width: 100%;
+  border-radius: 8px;
+  border: none; 
+  box-shadow: none; 
+}
+
+.script-card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #ffcc00;
+}
+
+.script-card p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.script-card {
+  width: 100%; 
+  max-width: 350px; 
+  margin: auto; 
+}
+
+
+.script-list {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px;
+  overflow: hidden; 
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+
+@media (min-width: 768px) {
+  .grid-container {
+      grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .grid-container {
+      grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+
+
+
