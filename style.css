@@ -283,7 +283,7 @@ main {
 }
 
 .info-content .title {
-  color: var(--white-1);
+  color: var(--orange-yellow-crayola);
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
