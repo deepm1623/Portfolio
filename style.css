@@ -1412,7 +1412,7 @@ main {
     padding: 20px;
     text-align: center;
     width: 300px;
-    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3);
+    box-shadow: 0px 4px 10px rgba(10, 154, 221, 0.3);
     transition: transform 0.3s ease;
 }
 
@@ -1430,7 +1430,7 @@ main {
 .script-card h3 {
     font-size: 20px;
     margin: 15px 0;
-    color: #ffcc00;
+    color: #f7f7f7;
 }
 
 .script-card p {
